@@ -1,0 +1,9 @@
+<!-- Generator: Avocode 2.1.0 - http://avocode.com -->
+<svg height="32" width="79" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 32">
+    <path fill="#00b6b7" fill-rule="evenodd" d="M -568.73 -277 C -568.73 -285.84 -561.56 -293 -552.74 -293 L -506.86 -293 C -498.02 -293 -490.86 -285.84 -490.86 -277 L -490.86 -277 C -490.86 -268.16 -498.03 -261 -506.86 -261 L -552.74 -261 C -561.57 -261 -568.73 -268.16 -568.73 -277 L -568.73 -277 Z M -568.73 -277" />
+    <path fill="#ffffff" fill-rule="evenodd" d="M -552.47 -264.68 C -546.09 -264.68 -540.93 -270.12 -540.93 -276.84 C -540.93 -283.56 -546.09 -289 -552.47 -289 C -558.84 -289 -564 -283.56 -564 -276.84 C -564 -270.12 -558.84 -264.68 -552.47 -264.68 Z M -552.47 -264.68" />
+    <text font-size="18" font-family="Museo Sans Cyrl" fill="#ffffff" y="25" x="36">
+        <tspan>yes
+</tspan>
+    </text>
+</svg>

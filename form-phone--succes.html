@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ICM capital</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" type="text/css" href="fonts/museo.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.formstyler.js"></script> <!-- style for select -->
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script><!-- scrollbar for select -->
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.ddslick.js"></script><!-- select img -->
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+
+  <header class="page-header">
+    <div class="page-header__inner">
+
+      <div class="page-header__logo">
+        <a href="#">
+          <svg class="page-header__svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="logo-svg" viewBox="0 0 142 56">
+            <path fill="#00a4a7" fill-rule="evenodd" d="M 20.8 33.2 L 20.8 26.6 C 19.4 26.4 18.1 26.4 16.6 26.4 C 11.8 26.4 6.5 27.2 0.9 29.7 L 0.8 29.7 L 0.8 46.7 L 33.3 46.7 L 33.3 33.2 L 20.8 33.2"/>
+            <path fill="#86cbc6" fill-rule="evenodd" d="M 16.6 26.6 C 18.1 26.6 19.4 26.7 20.8 26.8 L 20.8 26.8 L 20.8 15.2 C 11.6 16.1 0.8 17 0.8 17 L 0.8 29.9 L 0.9 29.9 C 6.5 27.4 11.8 26.6 16.6 26.6"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 57.1 4.2 L 66.4 4.2 L 66.4 28.1 L 57.1 28.1 L 57.1 4.2 Z M 57.1 4.2"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 86 9.7 C 82.1 9.7 80 12 80 16.2 C 80 20.4 82.1 22.6 86 22.6 C 88.8 22.6 90.6 21.3 91.2 18.7 L 101.7 18.7 C 100.8 25.3 95.4 28.8 86 28.8 C 75.5 28.8 70.2 24.5 70.2 16.2 C 70.2 7.9 75.5 3.6 86 3.6 C 95.9 3.6 101.3 7.4 101.6 14.2 L 91.2 14.2 C 90.9 11.3 89.1 9.7 86 9.7"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 105.2 4.2 L 119 4.2 L 123.1 18.8 L 127.5 4.2 L 141.2 4.2 L 141.2 28.1 L 132.5 28.1 L 132.5 9.4 L 126.8 28.1 L 119.5 28.1 L 113.8 9.4 L 113.8 28.1 L 105.2 28.1 L 105.2 4.2"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 71 43.8 L 73.6 44.4 C 73 46.5 72.1 48.1 70.7 49.2 C 69.3 50.3 67.5 50.9 65.5 50.9 C 63.4 50.9 61.7 50.5 60.4 49.6 C 59.1 48.8 58.1 47.5 57.4 45.9 C 56.8 44.3 56.4 42.6 56.4 40.7 C 56.4 38.7 56.8 37 57.6 35.5 C 58.3 34 59.4 32.9 60.9 32.1 C 62.3 31.3 63.9 30.9 65.6 30.9 C 67.5 30.9 69.1 31.4 70.5 32.4 C 71.8 33.4 72.7 34.7 73.2 36.5 L 70.7 37.1 C 70.3 35.7 69.6 34.7 68.8 34 C 67.9 33.4 66.8 33.1 65.5 33.1 C 64 33.1 62.8 33.5 61.8 34.2 C 60.8 34.9 60.1 35.8 59.7 37 C 59.2 38.2 59 39.5 59 40.7 C 59 42.4 59.3 43.8 59.8 45 C 60.3 46.2 61 47.2 62 47.8 C 63 48.4 64.1 48.7 65.3 48.7 C 66.8 48.7 68 48.3 69 47.5 C 70 46.6 70.7 45.4 71 43.8"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 86.2 48.8 C 85.3 49.6 84.5 50.1 83.7 50.4 C 82.8 50.7 82 50.9 81 50.9 C 79.5 50.9 78.3 50.5 77.5 49.7 C 76.6 49 76.2 48 76.2 46.9 C 76.2 46.2 76.4 45.5 76.7 45 C 77 44.4 77.4 44 77.9 43.6 C 78.4 43.3 79 43 79.6 42.8 C 80.1 42.7 80.8 42.6 81.8 42.5 C 83.7 42.2 85.1 42 86 41.7 C 86 41.3 86 41.1 86 41 C 86 40.1 85.8 39.4 85.3 39 C 84.7 38.5 83.8 38.2 82.6 38.2 C 81.5 38.2 80.7 38.4 80.1 38.8 C 79.6 39.2 79.2 39.9 79 40.9 L 76.6 40.5 C 76.8 39.5 77.2 38.8 77.7 38.1 C 78.2 37.5 78.9 37.1 79.8 36.7 C 80.7 36.4 81.8 36.2 83 36.2 C 84.2 36.2 85.2 36.4 85.9 36.7 C 86.7 36.9 87.2 37.3 87.5 37.7 C 87.9 38.1 88.2 38.7 88.3 39.3 C 88.4 39.7 88.4 40.5 88.4 41.5 L 88.4 44.7 C 88.4 46.9 88.5 48.3 88.6 48.9 C 88.7 49.5 88.9 50 89.2 50.5 L 86.7 50.5 C 86.4 50 86.3 49.5 86.2 48.8 M 86 43.5 C 85.1 43.9 83.8 44.2 82.1 44.4 C 81.1 44.6 80.4 44.7 80 44.9 C 79.6 45.1 79.3 45.3 79.1 45.7 C 78.9 46 78.8 46.4 78.8 46.8 C 78.8 47.4 79 48 79.5 48.4 C 80 48.8 80.7 49 81.6 49 C 82.5 49 83.3 48.8 84 48.4 C 84.8 48 85.3 47.5 85.6 46.8 C 85.9 46.2 86 45.4 86 44.4 L 86 43.5"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 92.7 55.9 L 92.7 36.5 L 94.9 36.5 L 94.9 38.4 C 95.4 37.7 96 37.1 96.6 36.8 C 97.3 36.4 98 36.2 99 36.2 C 100.2 36.2 101.2 36.5 102.1 37.2 C 103.1 37.8 103.8 38.6 104.2 39.8 C 104.7 40.9 104.9 42.1 104.9 43.4 C 104.9 44.9 104.7 46.2 104.1 47.3 C 103.6 48.5 102.9 49.3 101.9 49.9 C 100.9 50.5 99.9 50.9 98.8 50.9 C 98 50.9 97.3 50.7 96.7 50.4 C 96 50 95.5 49.6 95.1 49.1 L 95.1 55.9 L 92.7 55.9 M 94.9 43.6 C 94.9 45.4 95.2 46.8 96 47.6 C 96.7 48.5 97.6 48.9 98.6 48.9 C 99.7 48.9 100.6 48.5 101.3 47.6 C 102.1 46.7 102.5 45.3 102.5 43.4 C 102.5 41.6 102.1 40.3 101.4 39.4 C 100.6 38.5 99.8 38.1 98.7 38.1 C 97.7 38.1 96.8 38.6 96 39.5 C 95.3 40.5 94.9 41.8 94.9 43.6"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 108.5 31.5 L 110.9 31.5 L 110.9 34.2 L 108.5 34.2 L 108.5 31.5 Z M 108.5 36.8 L 110.9 36.8 L 110.9 50.8 L 108.5 50.8 L 108.5 36.8 Z M 108.5 36.8"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 120.3 48.7 L 120.6 50.8 C 120 50.9 119.4 51 118.8 51 C 118 51 117.3 50.9 116.8 50.6 C 116.3 50.3 116 50 115.8 49.5 C 115.6 49.1 115.5 48.1 115.5 46.7 L 115.5 38.7 L 113.8 38.7 L 113.8 36.8 L 115.5 36.8 L 115.5 33.4 L 117.9 31.9 L 117.9 36.8 L 120.3 36.8 L 120.3 38.7 L 117.9 38.7 L 117.9 46.9 C 117.9 47.5 117.9 48 118 48.2 C 118.1 48.4 118.2 48.5 118.4 48.6 C 118.6 48.7 118.9 48.8 119.2 48.8 C 119.5 48.8 119.8 48.8 120.3 48.7"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 132.4 49.1 C 131.5 49.9 130.7 50.4 129.8 50.7 C 129 51 128.2 51.1 127.2 51.1 C 125.7 51.1 124.5 50.8 123.7 50 C 122.8 49.3 122.4 48.3 122.4 47.1 C 122.4 46.5 122.6 45.8 122.9 45.3 C 123.2 44.7 123.6 44.2 124.1 43.9 C 124.6 43.6 125.2 43.3 125.8 43.1 C 126.3 43 127 42.9 127.9 42.8 C 129.9 42.5 131.3 42.3 132.2 42 C 132.2 41.6 132.2 41.4 132.2 41.3 C 132.2 40.4 132 39.7 131.5 39.3 C 130.9 38.8 130 38.5 128.8 38.5 C 127.7 38.5 126.9 38.7 126.3 39.1 C 125.8 39.5 125.4 40.2 125.2 41.1 L 122.8 40.8 C 123 39.8 123.4 39 123.9 38.4 C 124.3 37.8 125 37.4 126 37 C 126.9 36.7 128 36.5 129.2 36.5 C 130.4 36.5 131.3 36.7 132.1 37 C 132.8 37.2 133.4 37.6 133.7 38 C 134.1 38.4 134.3 39 134.5 39.6 C 134.6 40 134.6 40.8 134.6 41.8 L 134.6 45 C 134.6 47.2 134.7 48.6 134.8 49.1 C 134.9 49.7 135.1 50.3 135.4 50.8 L 132.9 50.8 C 132.6 50.3 132.5 49.8 132.4 49.1 M 132.2 43.8 C 131.3 44.2 130 44.5 128.3 44.7 C 127.3 44.8 126.6 45 126.2 45.2 C 125.8 45.4 125.5 45.6 125.3 46 C 125.1 46.3 125 46.7 125 47.1 C 125 47.7 125.2 48.2 125.7 48.6 C 126.2 49.1 126.9 49.3 127.8 49.3 C 128.7 49.3 129.5 49.1 130.2 48.7 C 130.9 48.3 131.5 47.7 131.8 47 C 132.1 46.5 132.2 45.7 132.2 44.7 L 132.2 43.8"/>
+            <path fill="#173e57" fill-rule="evenodd" d="M 138.8 31.5 L 141.2 31.5 L 141.2 50.8 L 138.8 50.8 L 138.8 31.5 Z M 138.8 31.5"/>
+            <path fill="#18486c" fill-rule="evenodd" d="M 53.1 16.6 C 53.1 16.6 46 13.8 36.2 13.8 C 29.5 13.8 24.2 15 20.8 16.2 L 20.8 33.2 L 53.1 33.2 L 53.1 16.4 C 53.1 16.4 53.1 16.4 53.1 16.4 L 53.1 16.6"/>
+            <path fill="#486082" fill-rule="evenodd" d="M 53.1 16.8 L 53.1 0.3 C 50.6 0.9 20.8 3.6 20.8 3.6 L 20.8 16.4 C 20.8 16.4 20.8 16.4 20.8 16.4 C 24.2 15.3 29.5 14 36.2 14.1 C 46 14.1 53.1 16.8 53.1 16.8"/>
+          </svg>
+        </a>
+      </div>
+      <div class="page-header__contacts">
+        <p class="page-header__phone">UK:<span> +44 207 634 9770</span></p>
+        <p class="page-header__phone">UAE:<span> +971 4 429 4500</span></p>
+      </div>
+      <div class="page-header__main-menu">
+        <nav class="page-header__nav">
+            <svg class="page-header__hamburger" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"viewBox="0 0 32 28">
+              <path fill="#ff8e00" fill-rule="evenodd" d="M 0 2.5 C 0 1.12 1.12 0 2.5 0 L 29.5 0 C 30.88 0 32 1.12 32 2.5 L 32 0.5 C 32 1.88 32 4.12 32 5 L 32 3 C 32 4.1 30.88 5 29.5 5 L 2.5 5 C 1.12 5 0 3.89 0 2.5 L 0 2.5 Z M 0 2.5"/>
+              <path fill="#ff8e00" fill-rule="evenodd" d="M 0 13.5 C 0 12.12 1.12 11 2.5 11 L 29.5 11 C 30.88 11 32 12.12 32 13.5 L 32 11.5 C 32 12.88 32 15.12 32 16 L 32 14 C 32 15.1 30.88 16 29.5 16 L 2.5 16 C 1.12 16 0 14.89 0 13.5 L 0 13.5 Z M 0 13.5"/>
+              <path fill="#ff8e00" fill-rule="evenodd" d="M 0 25.5 C 0 24.12 1.12 23 2.5 23 L 29.5 23 C 30.88 23 32 24.12 32 25.5 L 32 23.5 C 32 24.88 32 27.12 32 28 L 32 26 C 32 27.1 30.88 28 29.5 28 L 2.5 28 C 1.12 28 0 26.89 0 25.5 L 0 25.5 Z M 0 25.5"/>
+            </svg>
+          </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 container-main">
+          <div class="container-nav">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="nav__item active"><a class="nav__a" href="#liveAccount" data-toggle="tab">Apply for a live account</a></li>
+              <li class="nav__item"><a class="nav__a" href="#demoAccount" data-toggle="tab">Apply for a demo account</a></li>
+            </ul>
+
+            <section id="myTabContent" class="tab-content">
+              <div class="tab-pane fade in active" id="liveAccount">
+                <form class="form-account">
+                <h1 class="form-account__title">Personal</h1>
+                  <label class="form-account__label" for="title-form">Title</label>
+                  <select class="select select form-account__select form-account__select--succes" id="title-form"name="title-form" data-mcs-theme="light" data-visible-options="3">
+                    <option>Mr</option>
+                    <option>Ms</option>
+                  </select>
+                  <label class="form-account__label" for="form-first-name">First name</label>
+                  <input class="form-account__input form-account__input--succes" type="text" id="form-first-name" name="first-name">
+                  <label class="form-account__label" for="form-last-name">Last name</label>
+                  <input class="form-account__input form-account__input--succes" type="text" id="form-last-name" name="last-name">
+                  <label class="form-account__label">Date of Birth</label>
+                  <select class="select select form-account__select form-account__select--succes" class="mCustomScrollbar" data-mcs-theme="light" data-visible-options="3" name="day-birth">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                  <select class="select form-account__select form-account__select--succes" name="month-birth">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                  <select class="select form-account__select form-account__select--succes" name="year-birth">
+                    <option>1960</option>
+                    <option>1970</option>
+                    <option>1980</option>
+                  </select>
+                  <label class="form-account__label" for="email-login">Email (login)</label>
+                  <input class="form-account__input form-account__input--succes" type="text" id="email-login">
+                  <label class="form-account__label" for="password-login">Password</label>
+                  <input class="form-account__input form-account__input--succes" type="password" id="password-login">
+                  <label class="form-account__label" for="country-form">Country of residense</label>
+                  <select class="select form-account__select form-account__select--full form-account__select--succes" id="country-form" name="country-form" data-mcs-theme="light">
+                    <option>Britain</option>
+                    <option>Russia</option>
+                    <option>USA</option>
+                  </select>
+                  <div class="block-info">
+                    <div class="toogle-check">
+                      <label for="yesNo"></label>
+                      <input type="checkbox" name="yes/no" id="yesNo" class="regular-radio"/>
+                    </div>
+                    <p class="block-info__text">Are you a US citizen or a US resident for tax purposes?</p>
+                  </div>
+                  <div class="form-telefon">
+                    <label class="form-account__label form-telefon__label" for="telefon-form">Phone number</label>
+                    <select class="select select__img__only form-account__select form-account__select--full form-telefon__select form-account__select--succes" id="telefon-form" name="telefon-form" data-mcs-theme="light" data-visible-options="3">
+                      <option class="option-image option-image--america">a</option>
+                      <option class="option-image option-image--russia">a</option>
+                      <option class="option-image option-image--ukrain">a</option>
+                      <option class="option-image option-image--armenia">a</option>
+                    </select>
+                    <input class="form-account__input form-telefon__input form-account__input--succes" type="text">
+                  </div>
+                  </br>
+                  <label class="form-account__label" for="language-form" >Preferred contact language</label>
+                  <select id="language-form" class="select form-account__select form-account__select--full form-account__select--succes">
+                    <option class="option-image option-image--america">Bug</option>
+                    <option class="option-image option-image--russia">New Feature</option>
+                    <option class="option-image option-image--ukrain">Task</option>
+                    <option class="option-image option-image--armenia">Improvement</option>
+                  </select>
+                  <div class="block-info">
+                    <input type="checkbox" class="flat-custom" id="unchecked" />
+                      <label for="unchecked"></label>
+                    <p class="block-info__text">I confirm receiving daily market analysis on my email</p>
+                  </div>
+                  <button class="button-type button-type__allert">next step</button>
+                   <button class="button-type button-type--not-active">2 step</button>
+                   <button class="button-type button-type--not-active">3 step</button>
+                   <button class="button-type button-type--not-active">End registration</button>
+                </form>
+              </div>
+              <div class="tab-pane fade" id="demoAccount">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </section> <!-- Tab container end -->
+          </div> <!-- container-nav end -->
+          <section class="warning-info">
+            <p class="warning-info__text">Engaging in CFDs or Spot FX carries a high risk to your capital. You should not engage in this form of investing unless you understand the nature of the Transaction you are entering into and the true extent of your exposure to the risk of loss. Your profit and loss will vary according to the extent of the fluctuations in the price of the underlying markets on which the trade is based.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+
+

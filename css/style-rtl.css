@@ -1,0 +1,47 @@
+.main-menu:before {
+    right:-1.071em;
+    border-right:1px solid #b3c1ca;
+  left: auto;
+  border-left: none;
+}
+
+.container-nav {
+    padding-right:.714em;
+    padding-left:.714em;
+}
+
+.nav__item {
+    padding-right:2.171em;
+    padding-left:2.071em;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:0;
+    -webkit-border-bottom-right-radius:0;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-bottomright:0;
+    -moz-border-radius-topright:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border-top-right-radius:5px;
+}
+
+.nav__item:nth-child(2) {
+    float:left;
+}
+
+.form-account__title {
+    padding-right:1em;
+    padding-left:1em;
+}
+
+
+
+
+
+
+
+
+
+/* Made by the RTL-er.com - http://www.rtl-er.com */
